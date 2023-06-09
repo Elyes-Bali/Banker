@@ -22,7 +22,7 @@ const Bloc1 = () => {
   const trailWidth = 5;
   const hundelUpdate = () => {
     dispatch(editform({ formulaire2, id: forme._id }));
-
+     navigate("/bloc2");
    
   };
 

@@ -28,7 +28,7 @@ const Bloc4 = () => {
   const hundelUpdate =() => {
    
     dispatch(editform({formulaire2,id:forme._id}));
-   
+    navigate("/bloc5");
    
   }
 
